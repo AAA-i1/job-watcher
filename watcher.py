@@ -136,7 +136,7 @@ def save_seen_jobs(seen):
         print(f"[GitHub write error] {e}")
 
 
-# ── Telegram ──────────────────────────────────────────────────
+# ── Telegram ─────────────────────────────────────────────────
 
 def send_telegram(message, chat_id=None):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
